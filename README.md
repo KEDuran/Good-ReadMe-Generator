@@ -10,6 +10,10 @@ node index.js
 
 ## Links for Submission Items
 
+A link to the GitHub repo I used to develop this assignments is included below. I will update this section to include additional details for accessing the final product once it is ready to deploy.
+
+Link to GitHub Repo - [https://github.com/KEDuran/ReadMe-Generator](https://github.com/KEDuran/ReadMe-Generator)
+
 ## Assignment Scope
 
 ### User Story
