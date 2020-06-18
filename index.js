@@ -3,43 +3,43 @@ const questions = [
 	// Question for project title section
 	{
 		type: "input",
-		name: "Title",
+		name: "title",
 		message: "What is the title of your project?",
 	},
 	// Question for Project Description section
 	{
 		type: "input",
-		name: "Description",
+		name: "description",
 		message: "Please enter a brief description of your project.",
 	},
 	// Question for Installation section
 	{
 		type: "input",
-		name: "Installation",
+		name: "installation",
 		message: "What commands did you use to install the program?",
 	},
 	// Question for Usage Section
 	{
 		type: "input",
-		name: "Usage",
+		name: "usage",
 		message: "Please describe how we can use this program.",
 	},
 	// Question for License section
 	{
 		type: "input",
-		name: "License",
+		name: "license",
 		message: "Please enter any license information for this project.",
 	},
 	// Question for Contributing section
 	{
 		type: "input",
-		name: "Contributing",
+		name: "contributing",
 		message: "How can a someone contribute to your project?",
 	},
 	// Question for Tests section
 	{
 		type: "input",
-		name: "Tests",
+		name: "tests",
 		message:
 			"Please enter any testing protocols that you used for your project?",
 	},
