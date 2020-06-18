@@ -18,9 +18,9 @@ A link to the GitHub repo that I used to develop this assignments is included be
 
 This assignment list various requriement items in order to meet acceptable MVP standards. I listed the various assignment requirements below according to the following subsection in which they apply:
 
-- User Story
-- Required ReadMe Sections
-- Acceptance Criteria
+- [User Story](#-User-Story)
+- [Required ReadMe Sections](#-Required-ReadMe-Sections)
+- [Acceptance Criteria](#-Acceptance-Criteria)
 
 ### User Story
 
