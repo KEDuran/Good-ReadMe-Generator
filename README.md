@@ -10,11 +10,17 @@ node index.js
 
 ## Links for Submission Items
 
-A link to the GitHub repo I used to develop this assignments is included below. I will update this section to include additional details for accessing the final product once it is ready to deploy.
+A link to the GitHub repo that I used to develop this assignments is included below. I will update this section to include additional details for accessing the final product once it is ready to deploy.
 
 - Link to GitHub Repo - [https://github.com/KEDuran/ReadMe-Generator](https://github.com/KEDuran/ReadMe-Generator)
 
 ## Assignment Scope
+
+This assignment list various requriement items in order to meet acceptable MVP standards. I listed the various assignment requirements below according to the following subsection in which they apply:
+
+- User Story
+- Required ReadMe Sections
+- Acceptance Criteria
 
 ### User Story
 
@@ -26,4 +32,29 @@ I WANT a README generator
 SO THAT I can easily put together a good README for a new project
 ```
 
-### Acceptance Criteria / Requirements
+### Required ReadMe Sections
+
+The following sections must be included in the generated ReadMe file:
+
+- At least one badge
+- Project title
+- Description
+- Table of Contents
+- Installation
+- Usage
+- License
+- Contributing
+- Tests
+- Questions
+  - User GitHub profile picture
+  - User GitHub email
+
+### Acceptance Criteria
+
+```
+GIVEN the developer has a GitHub profile and a repository
+
+WHEN prompted for the developer's GitHub username and repo specific information
+
+THEN a README for the repo is generated
+```
