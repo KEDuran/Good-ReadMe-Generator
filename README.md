@@ -34,7 +34,7 @@ SO THAT I can easily put together a good README for a new project
 
 ### Required ReadMe Sections
 
-The following sections must be included in the generated ReadMe file:
+The following sections must be included in the generated ReadMe file. In the index.js file, I have included a list of questions that will prompt the user to include content that will be plugged into each of the ReadMe sections listed below.
 
 - At least one badge
 - Project title
