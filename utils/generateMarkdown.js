@@ -16,7 +16,8 @@ function generateMarkdown(data) {
 # ${data.License}
 # ${data.Contributing}
 # ${data.Tests}
-# ${data.Questions}
+# ${data.userName}
+# ${data.userEmail}
 `;
 }
 
