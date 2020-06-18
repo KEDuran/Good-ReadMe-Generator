@@ -4,9 +4,12 @@ function generateMarkdown(data) {
 # ${data.Description}
 
 # Table of contents
-
-* [Installation]()
-* Usage
+* [Installation](#-${data.Installation})
+* [Usage](#-${data.Usage})
+* [License](#-${data.License})
+* [Contributing](#-${data.Contributing})
+* [Tests](#-${data.Tests})
+* [Questions](#-${data.Questions})
 
 # ${data.Installation}
 # ${data.Usage}
@@ -14,7 +17,6 @@ function generateMarkdown(data) {
 # ${data.Contributing}
 # ${data.Tests}
 # ${data.Questions}
-
 `;
 }
 
