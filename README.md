@@ -8,11 +8,11 @@ The command line application must be invoked when entering the following command
 node index.js
 ```
 
-# Links for Submission Items
+## Links for Submission Items
 
-# Assignment Scope
+## Assignment Scope
 
-## User Story
+### User Story
 
 ```
 AS A developer
@@ -22,4 +22,4 @@ I WANT a README generator
 SO THAT I can easily put together a good README for a new project
 ```
 
-## Acceptance Criteria / Requirements
+### Acceptance Criteria / Requirements
