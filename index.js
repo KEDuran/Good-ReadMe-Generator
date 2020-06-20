@@ -32,7 +32,16 @@ const questions = [
 	{
 		type: "input",
 		name: "installation",
-		message: "What commands did you use to install the program?",
+		message:
+			"What commands did you use to install NPM modules for the program?",
+		// validate inquirer method to make sure question is answered.
+		validate: function (value) {
+			if (value != "") {
+				return true;
+			} else {
+				return "Please enter any major commands you used to install NPM modules.";
+			}
+		},
 	},
 	// Question for Usage Section
 	{
