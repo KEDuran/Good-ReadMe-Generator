@@ -119,6 +119,15 @@ const questions = [
 		type: "input",
 		name: "userName",
 		message: "What is your GitHub username?",
+		// validate inquirer method to make sure question is answered.
+		validate: function (value) {
+			if (value != "") {
+				return true;
+			} else {
+				return "Please answer the question.";
+			}
+		},
+
 	},
 	// User email question for Contact section
 	{
