@@ -35,9 +35,9 @@ ${data.contributing}
 ${data.tests}
 
 # Contact Information
-* ![Uploaded profile pic provided by user.](${data.profilePic})
 * GitHub Username: ${data.userName}
 * GitHub Email: ${data.userEmail}
+* ![Uploaded profile pic provided by user.](${data.profilePic})
 `;
 }
 
