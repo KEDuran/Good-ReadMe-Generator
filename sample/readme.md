@@ -4,10 +4,10 @@
 [![npm](https://badge.fury.io/js/inquirer.svg)](http://badge.fury.io/js/inquirer)
 
 
-Conducting another test
+conduct test
 
 # Description
-Conducting another test
+conduct test
 
 # Table of contents
 * [Installation](#-Installation)
@@ -18,21 +18,21 @@ Conducting another test
 * [Questions](#-Contact-Information)
 
 # Installation
-Conducting another test
+conduct test
 
 # Usage
-Conducting another test
+conduct test
 
 # License
-Conducting another test
+conduct test
 
 # Contributing
-Conducting another test
+conduct test
 
 # Tests
-Conducting another test
+conduct test
 
 # Contact Information
-* https://github.com/KEDuran/ReadMe-Generator/blob/20-questValidation/assets/images/KEDuran.jpg
-* KEDuran
-* krystal.e.garcia@gmail.com
+* ![Uploaded profile pic provided by user.](https://raw.githubusercontent.com/KEDuran/ReadMe-Generator/20-questValidation/assets/images/KEDuran.jpg)
+* GitHub Username: KEDuran
+* GitHub Email: krystal.e.garcia@gmail.com
