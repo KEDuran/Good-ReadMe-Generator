@@ -37,7 +37,7 @@ ${data.tests}
 # Contact Information
 * GitHub Username: ${data.userName}
 * GitHub Email: ${data.userEmail}
-* ![Uploaded profile pic provided by user.](${data.profilePic})
+![Uploaded profile pic provided by user.](${data.profilePic})
 `;
 }
 
