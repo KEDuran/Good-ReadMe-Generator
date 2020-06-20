@@ -1,3 +1,4 @@
+// function to generate the required readme headings
 function generateMarkdown(data) {
 	return `
 	# Project Title

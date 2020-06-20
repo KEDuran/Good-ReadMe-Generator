@@ -63,6 +63,9 @@ const questions = [
 	},
 ];
 
+// Const fs variable that will allow us to use fs modules
+const fs = require("fs");
+
 function writeToFile(fileName, data) {}
 
 function init() {}
