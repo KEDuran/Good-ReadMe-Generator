@@ -1,35 +1,34 @@
 
-	# Project Title
-	test
+# Project Title
+test
 
-	# Description
-	test
+# Description
+test
 
-	# Table of contents
-	* [Installation](#-Installation)
-	* [Usage](#-Usage)
-	* [License](#-License)
-	* [Contributing](#-Contributing)
-	* [Tests](#-Tests)
-	* [Questions](#-Contact-Information)
+# Table of contents
+* [Installation](#-Installation)
+* [Usage](#-Usage)
+* [License](#-License)
+* [Contributing](#-Contributing)
+* [Tests](#-Tests)
+* [Questions](#-Contact-Information)
 
-	# Installation
-	test
+# Installation
+test
 
-	# Usage
-	test
+# Usage
+test
 
-	# License
-	test
+# License
+test
 
-	# Contributing
-	test
+# Contributing
+test
 
-	# Tests
-	test
+# Tests
+test
 
-	# Contact Information
-	* test
-	* test
-	* tes
-	
+# Contact Information
+* test
+* test
+* test
