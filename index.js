@@ -5,6 +5,14 @@ const questions = [
 		type: "input",
 		name: "title",
 		message: "What is the title of your project?",
+		// validate inquirer method to make sure question is answered.
+		validate: function (value) {
+			if (value != "") {
+				return true;
+			} else {
+				return "Please enter a response.";
+			}
+		},
 	},
 	// Question for Project Description section
 	{
