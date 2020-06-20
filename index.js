@@ -127,13 +127,20 @@ const questions = [
 				return "Please answer the question.";
 			}
 		},
-
 	},
 	// User email question for Contact section
 	{
 		type: "input",
 		name: "userEmail",
 		message: "What is your GitHub email?",
+		// validate inquirer method to make sure question is answered.
+		validate: function (value) {
+			if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(value)) {
+				return true;
+			} else {
+				return "Not a valid email. Please enter valid email.";
+			}
+		},
 	},
 ];
 // Const fs variable that will allow us to use fs modules
