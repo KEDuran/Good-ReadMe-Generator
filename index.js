@@ -48,6 +48,14 @@ const questions = [
 		type: "input",
 		name: "usage",
 		message: "Please describe how we can use this program.",
+		// validate inquirer method to make sure question is answered.
+		validate: function (value) {
+			if (value != "") {
+				return true;
+			} else {
+				return "Please enter a response to this question.";
+			}
+		},
 	},
 	// Question for License section
 	{
