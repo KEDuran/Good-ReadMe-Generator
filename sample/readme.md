@@ -4,7 +4,7 @@
 [![npm](https://badge.fury.io/js/inquirer.svg)](http://badge.fury.io/js/inquirer)
 
 
-test again
+test
 
 # Description
 test
@@ -24,15 +24,17 @@ test
 test
 
 # License
-test
+tes
 
 # Contributing
-test
+tes
 
 # Tests
-test
+tes
 
 # Contact Information
-* tes
-* test
-* test
+* GitHub Username: KEDuran
+* GitHub Email: krystal.e.garcia@gmail.com
+* Profile Picture: 
+
+![Uploaded profile pic provided by user.](https://github.com/KEDuran.png)

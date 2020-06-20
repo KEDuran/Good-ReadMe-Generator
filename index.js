@@ -1,3 +1,13 @@
+/*Function used to validate entry for all questions (except email question).
+Email question has separate validation.*/
+function validation(value) {
+	if (value != "") {
+		return true;
+	} else {
+		return "Please answer the question.";
+	}
+}
+
 // Const question variable that will house all the questions.
 const questions = [
 	// Question for project title section
@@ -5,36 +15,49 @@ const questions = [
 		type: "input",
 		name: "title",
 		message: "What is the title of your project?",
+		// validate inquirer method to make sure question is answered.
+		validate: validation,
 	},
 	// Question for Project Description section
 	{
 		type: "input",
 		name: "description",
 		message: "Please enter a brief description of your project.",
+		// validate inquirer method to make sure question is answered.
+		validate: validation,
 	},
 	// Question for Installation section
 	{
 		type: "input",
 		name: "installation",
-		message: "What commands did you use to install the program?",
+		message:
+			"What commands did you use to install NPM modules for the program?",
+		// validate inquirer method to make sure question is answered.
+		validate: validation,
 	},
 	// Question for Usage Section
 	{
 		type: "input",
 		name: "usage",
 		message: "Please describe how we can use this program.",
+		// validate inquirer method to make sure question is answered.
+		validate: validation,
 	},
 	// Question for License section
 	{
 		type: "input",
 		name: "license",
 		message: "Please enter any license information for this project.",
+		// validate inquirer method to make sure question is answered.
+		validate: validation,
 	},
 	// Question for Contributing section
 	{
 		type: "input",
 		name: "contributing",
-		message: "How can a someone contribute to your project?",
+		message: "How can someone contribute to your project?",
+		// validate inquirer method to make sure question is answered.
+		validate: validation,
 	},
 	// Question for Tests section
 	{
@@ -42,24 +65,30 @@ const questions = [
 		name: "tests",
 		message:
 			"Please enter any testing protocols that you used for your project?",
-	},
-	// Profile pic question for Contact section
-	{
-		type: "input",
-		name: "profilePic",
-		message: "Please upload your GitHub profile picture?",
+		// validate inquirer method to make sure question is answered.
+		validate: validation,
 	},
 	// Username question for Contact section
 	{
 		type: "input",
 		name: "userName",
 		message: "What is your GitHub username?",
+		// validate inquirer method to make sure question is answered.
+		validate: validation,
 	},
 	// User email question for Contact section
 	{
 		type: "input",
 		name: "userEmail",
 		message: "What is your GitHub email?",
+		// validate inquirer method to make sure question is answered.
+		validate: function (value) {
+			if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(value)) {
+				return true;
+			} else {
+				return "Not a valid email. Please enter valid email.";
+			}
+		},
 	},
 ];
 // Const fs variable that will allow us to use fs modules

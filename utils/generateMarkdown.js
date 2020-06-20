@@ -35,9 +35,11 @@ ${data.contributing}
 ${data.tests}
 
 # Contact Information
-* ${data.profilePic}
-* ${data.userName}
-* ${data.userEmail}
+* GitHub Username: ${data.userName}
+* GitHub Email: ${data.userEmail}
+* Profile Picture: 
+
+![Uploaded profile pic provided by user.](https://github.com/${data.userName}.png)
 `;
 }
 
