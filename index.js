@@ -19,6 +19,14 @@ const questions = [
 		type: "input",
 		name: "description",
 		message: "Please enter a brief description of your project.",
+		// validate inquirer method to make sure question is answered.
+		validate: function (value) {
+			if (value != "") {
+				return true;
+			} else {
+				return "Please enter a description of your project.";
+			}
+		},
 	},
 	// Question for Installation section
 	{
