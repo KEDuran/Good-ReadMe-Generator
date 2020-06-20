@@ -1,4 +1,6 @@
-function generateMarkdown(data) {
+var fs = require("fs");
+
+fs.writeFile("./sample/readme.md", function generateMarkdown(data) {
 	return `
 	# Project Title
 	${data.title}
@@ -34,6 +36,6 @@ function generateMarkdown(data) {
 	* ${data.userName}
 	* ${data.userEmail}
 	`;
-}
+});
 
 module.exports = generateMarkdown;
