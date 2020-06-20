@@ -75,7 +75,7 @@ const questions = [
 	{
 		type: "input",
 		name: "contributing",
-		message: "How can a someone contribute to your project?",
+		message: "How can someone contribute to your project?",
 		// validate inquirer method to make sure question is answered.
 		validate: function (value) {
 			if (value != "") {
