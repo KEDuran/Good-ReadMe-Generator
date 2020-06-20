@@ -91,6 +91,14 @@ const questions = [
 		name: "tests",
 		message:
 			"Please enter any testing protocols that you used for your project?",
+		// validate inquirer method to make sure question is answered.
+		validate: function (value) {
+			if (value != "") {
+				return true;
+			} else {
+				return "Please answer the question.";
+			}
+		},
 	},
 	// Profile pic question for Contact section
 	{
