@@ -71,7 +71,11 @@ const generateMarkdown = require("./utils/generateMarkdown");
 // This function is used to generate the ReadMe titles and content.
 function writeToFile(fileName, data) {
 	let readMeString = generateMarkdown(data);
-	fs.writeFile(fileName, readMeString);
+	fs.writeFile(fileName, readMeString, function (err) {
+		if (err) {
+			return console.log(err);
+		}
+	});
 }
 
 // This function is used to trigger question prompts, store answer data, and calls writeToFile() function.
