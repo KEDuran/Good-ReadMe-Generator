@@ -1,40 +1,40 @@
 // function to generate the required readme headings
 function generateMarkdown(data) {
 	return `
-	# Project Title
-	${data.title}
+# Project Title
+${data.title}
 
-	# Description
-	${data.description}
+# Description
+${data.description}
 
-	# Table of contents
-	* [Installation](#-Installation)
-	* [Usage](#-Usage)
-	* [License](#-License)
-	* [Contributing](#-Contributing)
-	* [Tests](#-Tests)
-	* [Questions](#-Contact-Information)
+# Table of contents
+* [Installation](#-Installation)
+* [Usage](#-Usage)
+* [License](#-License)
+* [Contributing](#-Contributing)
+* [Tests](#-Tests)
+* [Questions](#-Contact-Information)
 
-	# Installation
-	${data.installation}
+# Installation
+${data.installation}
 
-	# Usage
-	${data.usage}
+# Usage
+${data.usage}
 
-	# License
-	${data.license}
+# License
+${data.license}
 
-	# Contributing
-	${data.contributing}
+# Contributing
+${data.contributing}
 
-	# Tests
-	${data.tests}
+# Tests
+${data.tests}
 
-	# Contact Information
-	* ${data.profilePic}
-	* ${data.userName}
-	* ${data.userEmail}
-	`;
+# Contact Information
+* ${data.profilePic}
+* ${data.userName}
+* ${data.userEmail}
+`;
 }
 
 module.exports = generateMarkdown;
