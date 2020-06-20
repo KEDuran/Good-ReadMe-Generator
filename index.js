@@ -10,7 +10,7 @@ const questions = [
 			if (value != "") {
 				return true;
 			} else {
-				return "Please enter a response.";
+				return "Please answer the question.";
 			}
 		},
 	},
@@ -24,7 +24,7 @@ const questions = [
 			if (value != "") {
 				return true;
 			} else {
-				return "Please enter a description of your project.";
+				return "Please answer the question.";
 			}
 		},
 	},
@@ -39,7 +39,7 @@ const questions = [
 			if (value != "") {
 				return true;
 			} else {
-				return "Please enter any major commands you used to install NPM modules.";
+				return "Please answer the question.";
 			}
 		},
 	},
@@ -53,7 +53,7 @@ const questions = [
 			if (value != "") {
 				return true;
 			} else {
-				return "Please enter a response to this question.";
+				return "Please answer the question.";
 			}
 		},
 	},
@@ -67,7 +67,7 @@ const questions = [
 			if (value != "") {
 				return true;
 			} else {
-				return "Please enter appropriate license information.";
+				return "Please answer the question.";
 			}
 		},
 	},
