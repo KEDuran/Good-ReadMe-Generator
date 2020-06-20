@@ -70,6 +70,7 @@ const inquirer = require("inquirer");
 function writeToFile(fileName, data) {}
 
 function init() {
+	// inquirer.prompt method will ask the questions and store answers in JSON object
 	inquirer.prompt(questions).then((answers) => {
 		console.log(JSON.stringify(answers, null, " "));
 	});
