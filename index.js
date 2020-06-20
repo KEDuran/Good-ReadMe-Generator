@@ -1,3 +1,13 @@
+/*Function used to validate entry for all questions (except email question).
+Email question has separate validation.*/
+function validation(value) {
+	if (value != "") {
+		return true;
+	} else {
+		return "Please answer the question.";
+	}
+}
+
 // Const question variable that will house all the questions.
 const questions = [
 	// Question for project title section
@@ -6,13 +16,7 @@ const questions = [
 		name: "title",
 		message: "What is the title of your project?",
 		// validate inquirer method to make sure question is answered.
-		validate: function (value) {
-			if (value != "") {
-				return true;
-			} else {
-				return "Please answer the question.";
-			}
-		},
+		validate: validation,
 	},
 	// Question for Project Description section
 	{
@@ -20,13 +24,7 @@ const questions = [
 		name: "description",
 		message: "Please enter a brief description of your project.",
 		// validate inquirer method to make sure question is answered.
-		validate: function (value) {
-			if (value != "") {
-				return true;
-			} else {
-				return "Please answer the question.";
-			}
-		},
+		validate: validation,
 	},
 	// Question for Installation section
 	{
@@ -35,13 +33,7 @@ const questions = [
 		message:
 			"What commands did you use to install NPM modules for the program?",
 		// validate inquirer method to make sure question is answered.
-		validate: function (value) {
-			if (value != "") {
-				return true;
-			} else {
-				return "Please answer the question.";
-			}
-		},
+		validate: validation,
 	},
 	// Question for Usage Section
 	{
@@ -49,13 +41,7 @@ const questions = [
 		name: "usage",
 		message: "Please describe how we can use this program.",
 		// validate inquirer method to make sure question is answered.
-		validate: function (value) {
-			if (value != "") {
-				return true;
-			} else {
-				return "Please answer the question.";
-			}
-		},
+		validate: validation,
 	},
 	// Question for License section
 	{
@@ -63,13 +49,7 @@ const questions = [
 		name: "license",
 		message: "Please enter any license information for this project.",
 		// validate inquirer method to make sure question is answered.
-		validate: function (value) {
-			if (value != "") {
-				return true;
-			} else {
-				return "Please answer the question.";
-			}
-		},
+		validate: validation,
 	},
 	// Question for Contributing section
 	{
@@ -77,13 +57,7 @@ const questions = [
 		name: "contributing",
 		message: "How can someone contribute to your project?",
 		// validate inquirer method to make sure question is answered.
-		validate: function (value) {
-			if (value != "") {
-				return true;
-			} else {
-				return "Please answer the question.";
-			}
-		},
+		validate: validation,
 	},
 	// Question for Tests section
 	{
@@ -92,13 +66,7 @@ const questions = [
 		message:
 			"Please enter any testing protocols that you used for your project?",
 		// validate inquirer method to make sure question is answered.
-		validate: function (value) {
-			if (value != "") {
-				return true;
-			} else {
-				return "Please answer the question.";
-			}
-		},
+		validate: validation,
 	},
 	// Profile pic question for Contact section
 	{
@@ -106,13 +74,7 @@ const questions = [
 		name: "profilePic",
 		message: "Please enter a link to your GitHub profile picture?",
 		// validate inquirer method to make sure question is answered.
-		validate: function (value) {
-			if (value != "") {
-				return true;
-			} else {
-				return "Please answer the question.";
-			}
-		},
+		validate: validation,
 	},
 	// Username question for Contact section
 	{
@@ -120,13 +82,7 @@ const questions = [
 		name: "userName",
 		message: "What is your GitHub username?",
 		// validate inquirer method to make sure question is answered.
-		validate: function (value) {
-			if (value != "") {
-				return true;
-			} else {
-				return "Please answer the question.";
-			}
-		},
+		validate: validation,
 	},
 	// User email question for Contact section
 	{
