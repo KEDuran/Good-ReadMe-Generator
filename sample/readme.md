@@ -24,17 +24,17 @@ test
 test
 
 # License
-test
+tes
 
 # Contributing
-test
+tes
 
 # Tests
-test
+tes
 
 # Contact Information
 * GitHub Username: KEDuran
 * GitHub Email: krystal.e.garcia@gmail.com
 * Profile Picture: 
 
-![Uploaded profile pic provided by user.](https://raw.githubusercontent.com/KEDuran/ReadMe-Generator/20-questValidation/assets/images/KEDuran.jpg)
+![Uploaded profile pic provided by user.](https://github.com/KEDuran.png)
