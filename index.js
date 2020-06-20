@@ -62,6 +62,14 @@ const questions = [
 		type: "input",
 		name: "license",
 		message: "Please enter any license information for this project.",
+		// validate inquirer method to make sure question is answered.
+		validate: function (value) {
+			if (value != "") {
+				return true;
+			} else {
+				return "Please enter appropriate license information.";
+			}
+		},
 	},
 	// Question for Contributing section
 	{
