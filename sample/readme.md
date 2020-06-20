@@ -4,10 +4,10 @@
 [![npm](https://badge.fury.io/js/inquirer.svg)](http://badge.fury.io/js/inquirer)
 
 
-conduct test
+reordered the contact information section in the generateMarkdown.js file
 
 # Description
-conduct test
+reordered the contact information section in the generateMarkdown.js file
 
 # Table of contents
 * [Installation](#-Installation)
@@ -18,21 +18,21 @@ conduct test
 * [Questions](#-Contact-Information)
 
 # Installation
-conduct test
+reordered the contact information section in the generateMarkdown.js file
 
 # Usage
-conduct test
+reordered the contact information section in the generateMarkdown.js file
 
 # License
-conduct test
+reordered the contact information section in the generateMarkdown.js file
 
 # Contributing
-conduct test
+reordered the contact information section in the generateMarkdown.js file
 
 # Tests
-conduct test
+reordered the contact information section in the generateMarkdown.js file
 
 # Contact Information
-* ![Uploaded profile pic provided by user.](https://raw.githubusercontent.com/KEDuran/ReadMe-Generator/20-questValidation/assets/images/KEDuran.jpg)
 * GitHub Username: KEDuran
 * GitHub Email: krystal.e.garcia@gmail.com
+* ![Uploaded profile pic provided by user.](https://raw.githubusercontent.com/KEDuran/ReadMe-Generator/20-questValidation/assets/images/KEDuran.jpg)
