@@ -104,7 +104,15 @@ const questions = [
 	{
 		type: "input",
 		name: "profilePic",
-		message: "Please upload your GitHub profile picture?",
+		message: "Please enter a link to your GitHub profile picture?",
+		// validate inquirer method to make sure question is answered.
+		validate: function (value) {
+			if (value != "") {
+				return true;
+			} else {
+				return "Please answer the question.";
+			}
+		},
 	},
 	// Username question for Contact section
 	{
