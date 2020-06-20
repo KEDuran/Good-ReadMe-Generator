@@ -66,13 +66,20 @@ const questions = [
 const fs = require("fs");
 // Const inquirer variable that will allow us to use the NPM inquirer module
 const inquirer = require("inquirer");
+const generateMarkdown = require("./utils/generateMarkdown");
 
-function writeToFile(fileName, data) {}
+// This function is used to generate the ReadMe titles and content.
+function writeToFile(fileName, data) {
+	let readMeString = generateMarkdown(data);
+	fs.writeFile(fileName, readMeString);
+}
 
+// This function is used to trigger question prompts, store answer data, and calls writeToFile() function.
 function init() {
 	// inquirer.prompt method will ask the questions and store answers in JSON object
-	inquirer.prompt(questions).then((answers) => {
-		console.log(JSON.stringify(answers, null, " "));
+	inquirer.prompt(questions).then((data) => {
+		console.log(JSON.stringify(data, null, " "));
+		writeToFile("./sample/readme.md", data);
 	});
 }
 
