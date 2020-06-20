@@ -4,10 +4,10 @@
 [![npm](https://badge.fury.io/js/inquirer.svg)](http://badge.fury.io/js/inquirer)
 
 
-running another test for profile pic alignment"
+test
 
 # Description
-running another test for profile pic alignment
+test
 
 # Table of contents
 * [Installation](#-Installation)
@@ -18,21 +18,23 @@ running another test for profile pic alignment
 * [Questions](#-Contact-Information)
 
 # Installation
-running another test for profile pic alignment
+test
 
 # Usage
-running another test for profile pic alignment
+test
 
 # License
-running another test for profile pic alignment
+test
 
 # Contributing
-running another test for profile pic alignment
+test
 
 # Tests
-running another test for profile pic alignment
+test
 
 # Contact Information
 * GitHub Username: KEDuran
 * GitHub Email: krystal.e.garcia@gmail.com
-* Profile Picture: ![Uploaded profile pic provided by user.](https://raw.githubusercontent.com/KEDuran/ReadMe-Generator/20-questValidation/assets/images/KEDuran.jpg)
+* Profile Picture: 
+
+![Uploaded profile pic provided by user.](https://raw.githubusercontent.com/KEDuran/ReadMe-Generator/20-questValidation/assets/images/KEDuran.jpg)
