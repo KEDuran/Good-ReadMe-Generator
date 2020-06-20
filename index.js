@@ -62,12 +62,15 @@ const questions = [
 		message: "What is your GitHub email?",
 	},
 ];
-
 // Const fs variable that will allow us to use fs modules
 const fs = require("fs");
+// Const inquirer variable that will allow us to use the NPM inquirer module
+const inquirer = require("inquirer");
 
 function writeToFile(fileName, data) {}
 
-function init() {}
+function init() {
+	inquirer.prompt(questions);
+}
 
 init();
