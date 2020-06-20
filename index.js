@@ -70,7 +70,9 @@ const inquirer = require("inquirer");
 function writeToFile(fileName, data) {}
 
 function init() {
-	inquirer.prompt(questions);
+	inquirer.prompt(questions).then((answers) => {
+		console.log(JSON.stringify(answers, null, " "));
+	});
 }
 
 init();
