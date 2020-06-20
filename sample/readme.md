@@ -33,6 +33,6 @@ Conducting another test
 Conducting another test
 
 # Contact Information
-* Conducting another test
-* Conducting another test
+* https://github.com/KEDuran/ReadMe-Generator/blob/20-questValidation/assets/images/KEDuran.jpg
+* KEDuran
 * krystal.e.garcia@gmail.com
