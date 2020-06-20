@@ -2,6 +2,10 @@
 function generateMarkdown(data) {
 	return `
 # Project Title
+
+[![npm](https://badge.fury.io/js/inquirer.svg)](http://badge.fury.io/js/inquirer)
+
+
 ${data.title}
 
 # Description

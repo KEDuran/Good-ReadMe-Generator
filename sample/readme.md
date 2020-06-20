@@ -1,6 +1,10 @@
 
 # Project Title
-test
+
+[![npm](https://badge.fury.io/js/inquirer.svg)](http://badge.fury.io/js/inquirer)
+
+
+test again
 
 # Description
 test
@@ -29,6 +33,6 @@ test
 test
 
 # Contact Information
-* test
+* tes
 * test
 * test
