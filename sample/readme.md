@@ -4,10 +4,10 @@
 [![npm](https://badge.fury.io/js/inquirer.svg)](http://badge.fury.io/js/inquirer)
 
 
-Test Title
+Conducting another test
 
 # Description
-test description
+Conducting another test
 
 # Table of contents
 * [Installation](#-Installation)
@@ -18,21 +18,21 @@ test description
 * [Questions](#-Contact-Information)
 
 # Installation
-test install commands
+Conducting another test
 
 # Usage
-use this program to generate readme
+Conducting another test
 
 # License
-MIT version
+Conducting another test
 
 # Contributing
-look at my repo
+Conducting another test
 
 # Tests
-we tested alot
+Conducting another test
 
 # Contact Information
-* test
-* KEDuran
+* Conducting another test
+* Conducting another test
 * krystal.e.garcia@gmail.com
