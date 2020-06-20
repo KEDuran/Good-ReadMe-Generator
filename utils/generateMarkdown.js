@@ -39,7 +39,7 @@ ${data.tests}
 * GitHub Email: ${data.userEmail}
 * Profile Picture: 
 
-![Uploaded profile pic provided by user.](${data.profilePic})
+![Uploaded profile pic provided by user.](https://github.com/${data.userName}.png)
 `;
 }
 

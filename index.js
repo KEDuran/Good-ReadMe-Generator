@@ -68,14 +68,6 @@ const questions = [
 		// validate inquirer method to make sure question is answered.
 		validate: validation,
 	},
-	// Profile pic question for Contact section
-	{
-		type: "input",
-		name: "profilePic",
-		message: "Please enter a link to your GitHub profile picture?",
-		// validate inquirer method to make sure question is answered.
-		validate: validation,
-	},
 	// Username question for Contact section
 	{
 		type: "input",
