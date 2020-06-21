@@ -2,9 +2,8 @@
 function generateMarkdown(data) {
 	return `
 # Project Title
-
 [![npm](https://badge.fury.io/js/inquirer.svg)](http://badge.fury.io/js/inquirer)
-
+${data.licenseBadge}
 
 ${data.title}
 
@@ -26,7 +25,9 @@ ${data.installation}
 ${data.usage}
 
 # License
-${data.license}
+License used for this project - ${data.license}
+
+* For more information on license types, please reference this website for additional licensing information - [https://choosealicense.com/](https://choosealicense.com/).
 
 # Contributing
 ${data.contributing}

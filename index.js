@@ -1,3 +1,20 @@
+// This function will return specific badges based on license selection.
+function licenseBadge(value) {
+	if (value === "GNU AGPLv3") {
+		return "[![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)";
+	} else if (value === "GNU GPLv3") {
+		return "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)";
+	} else if (value === "GNU LGPLv3") {
+		return "[![License: LGPL v3](https://img.shields.io/badge/License-LGPL%20v3-blue.svg)](https://www.gnu.org/licenses/lgpl-3.0)";
+	} else if (value === "Mozilla") {
+		return "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)";
+	} else if (value === "Apache") {
+		return "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)";
+	} else {
+		return "[![License](https://img.shields.io/badge/License-Boost%201.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)";
+	}
+}
+
 /*Function used to validate entry for all questions (except email question).
 Email question has separate validation.*/
 function validation(value) {
@@ -45,9 +62,17 @@ const questions = [
 	},
 	// Question for License section
 	{
-		type: "input",
+		type: "list",
 		name: "license",
-		message: "Please enter any license information for this project.",
+		message: "Please select the license you used for this project.",
+		choices: [
+			"GNU AGPLv3",
+			"GNU GPLv3",
+			"GNU LGPLv3",
+			"Mozilla",
+			"Apache",
+			"Boost",
+		],
 		// validate inquirer method to make sure question is answered.
 		validate: validation,
 	},
@@ -112,6 +137,7 @@ function init() {
 	// inquirer.prompt method will ask the questions and store answers in JSON object
 	inquirer.prompt(questions).then((data) => {
 		console.log(JSON.stringify(data, null, " "));
+		data.licenseBadge = licenseBadge(data.license);
 		writeToFile("./sample/readme.md", data);
 	});
 }
