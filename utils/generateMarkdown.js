@@ -28,6 +28,8 @@ ${data.usage}
 # License
 ${data.license}
 
+* For more information on license types, please reference this website for additional licensing information - [https://choosealicense.com/](https://choosealicense.com/).
+
 # Contributing
 ${data.contributing}
 
