@@ -47,15 +47,15 @@ const questions = [
 	{
 		type: "list",
 		name: "license",
-		message: "Please select which license you used for this project.",
+		message: "Please select the license you used for this project.",
 		choices: [
-			"GNU AGPLv3",
-			"GNU GPLv3",
-			"GNU LGPLv3",
-			"Mozilla Public License 2.0",
-			"Apache License 2.0",
-			"MIT License",
-			"Boost Software License",
+			"AGPL v3",
+			"GPLv3",
+			"LGPL v3",
+			"MPL 2.0",
+			"Apache 2.0",
+			"MIT",
+			"Boost 1.0",
 		],
 		// validate inquirer method to make sure question is answered.
 		validate: validation,
