@@ -12,7 +12,7 @@ This is sample text for each readme generator question that I will be using to p
 
 ## What commands did you use to install NPM modules for the program?
 * NPM init
-* NPM install <<npm module name here>>
+* NPM install
 
 
 ## Please describe how we can use this program.
