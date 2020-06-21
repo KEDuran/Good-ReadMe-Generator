@@ -4,10 +4,10 @@
 [![npm](https://badge.fury.io/js/inquirer.svg)](http://badge.fury.io/js/inquirer)
 
 
-test
+Demo Project for Homework Assignment
 
 # Description
-test
+The purpose of this project is to develop an back-end app in node.js that will allow users to automatically generate a good readme.md file by answering the set of questions prompted within the terminal command line.
 
 # Table of contents
 * [Installation](#-Installation)
@@ -18,19 +18,19 @@ test
 * [Questions](#-Contact-Information)
 
 # Installation
-test
+* NPM init
 
 # Usage
-test
+For details on how to use this application, please the readme.md file within the GitHub repo I used to develop this application. 
 
 # License
-tes
+It is important to identify applicable license information for your project. Please reference this website for additional licensing information - [https://choosealicense.com/](https://choosealicense.com/).
 
 # Contributing
-tes
+In order to contribute to this project, please fork the repository or use a separate branch to make any proposed changes to the code. After you have made changes, please submit your changes via a pull request.
 
 # Tests
-tes
+In order to contribute to this project, please fork the repository or use a separate branch to make any proposed changes to the code. After you have made changes, please submit your changes via a pull request.
 
 # Contact Information
 * GitHub Username: KEDuran
