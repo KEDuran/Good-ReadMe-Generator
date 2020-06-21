@@ -1,3 +1,13 @@
+function licenseBadge(value) {
+	if (value === "GPL v3") {
+		return "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)";
+	} else if (value === "Apache 2.0") {
+		return "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)";
+	} else {
+		return "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
+	}
+}
+
 /*Function used to validate entry for all questions (except email question).
 Email question has separate validation.*/
 function validation(value) {
@@ -48,15 +58,7 @@ const questions = [
 		type: "list",
 		name: "license",
 		message: "Please select the license you used for this project.",
-		choices: [
-			"AGPL v3",
-			"GPLv3",
-			"LGPL v3",
-			"MPL 2.0",
-			"Apache 2.0",
-			"MIT",
-			"Boost 1.0",
-		],
+		choices: ["GPL v3", "Apache 2.0", "MIT"],
 		// validate inquirer method to make sure question is answered.
 		validate: validation,
 	},
@@ -121,6 +123,7 @@ function init() {
 	// inquirer.prompt method will ask the questions and store answers in JSON object
 	inquirer.prompt(questions).then((data) => {
 		console.log(JSON.stringify(data, null, " "));
+		data.licenseBadge = licenseBadge(data.license);
 		writeToFile("./sample/readme.md", data);
 	});
 }
