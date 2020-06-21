@@ -25,7 +25,7 @@ ${data.installation}
 ${data.usage}
 
 # License
-${data.license}
+License used for this project - ${data.license}
 
 * For more information on license types, please reference this website for additional licensing information - [https://choosealicense.com/](https://choosealicense.com/).
 
