@@ -45,9 +45,18 @@ const questions = [
 	},
 	// Question for License section
 	{
-		type: "input",
+		type: "list",
 		name: "license",
-		message: "Please enter any license information for this project.",
+		message: "Please select which license you used for this project.",
+		choices: [
+			"GNU AGPLv3",
+			"GNU GPLv3",
+			"GNU LGPLv3",
+			"Mozilla Public License 2.0",
+			"Apache License 2.0",
+			"MIT License",
+			"Boost Software License",
+		],
 		// validate inquirer method to make sure question is answered.
 		validate: validation,
 	},
