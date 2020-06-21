@@ -7,7 +7,6 @@ function generateMarkdown(data) {
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 
-
 ${data.title}
 
 # Description
