@@ -18,7 +18,7 @@ The purpose of this project is to develop an back-end app in node.js that will a
 * [Questions](#-Contact-Information)
 
 # Installation
-* NPM init
+NPM install <<npm module name here>>
 
 # Usage
 For details on how to use this application, please the readme.md file within the GitHub repo I used to develop this application. 
@@ -30,7 +30,7 @@ It is important to identify applicable license information for your project. Ple
 In order to contribute to this project, please fork the repository or use a separate branch to make any proposed changes to the code. After you have made changes, please submit your changes via a pull request.
 
 # Tests
-In order to contribute to this project, please fork the repository or use a separate branch to make any proposed changes to the code. After you have made changes, please submit your changes via a pull request.
+This section of the readme.md file is dedicated to include an specific testing scenarios that the user can use to test an app.
 
 # Contact Information
 * GitHub Username: KEDuran
