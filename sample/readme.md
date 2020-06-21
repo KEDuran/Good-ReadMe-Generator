@@ -1,10 +1,7 @@
 
 # Project Title
-
 [![npm](https://badge.fury.io/js/inquirer.svg)](http://badge.fury.io/js/inquirer)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 test
 
@@ -20,13 +17,13 @@ test
 * [Questions](#-Contact-Information)
 
 # Installation
-tests
+test
 
 # Usage
 test
 
 # License
-MPL 2.0
+Apache 2.0
 
 * For more information on license types, please reference this website for additional licensing information - [https://choosealicense.com/](https://choosealicense.com/).
 
@@ -37,8 +34,8 @@ test
 test
 
 # Contact Information
-* GitHub Username: test
+* GitHub Username: KEDuran
 * GitHub Email: krystal.e.garcia@gmail.com
 * Profile Picture: 
 
-![Uploaded profile pic provided by user.](https://github.com/test.png)
+![Uploaded profile pic provided by user.](https://github.com/KEDuran.png)
