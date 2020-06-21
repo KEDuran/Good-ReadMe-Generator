@@ -1,12 +1,12 @@
 
 # Project Title
 [![npm](https://badge.fury.io/js/inquirer.svg)](http://badge.fury.io/js/inquirer)
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 
-test
+test project
 
 # Description
-test
+test project
 
 # Table of contents
 * [Installation](#-Installation)
@@ -17,21 +17,21 @@ test
 * [Questions](#-Contact-Information)
 
 # Installation
-test
+test project
 
 # Usage
-test
+test project
 
 # License
-Apache 2.0
+GNU AGPLv3
 
 * For more information on license types, please reference this website for additional licensing information - [https://choosealicense.com/](https://choosealicense.com/).
 
 # Contributing
-test
+test project
 
 # Tests
-test
+test project
 
 # Contact Information
 * GitHub Username: KEDuran
