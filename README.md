@@ -1,5 +1,7 @@
 # Homework 9 - Good ReadMe Generator
 
+![GitHub last commit](https://img.shields.io/github/last-commit/KEDuran/ReadMe-Generator)
+
 ## Project Description
 
 The goal for this homework assignment is to create a command-line application that dynamically generates a README.md file based on the user's input to a series of prompted questions populated in the command-line terminal. Additional details regarding this assignment are addressed in the following sections listed below.
