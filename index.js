@@ -132,7 +132,8 @@ function writeToFile(fileName, data) {
 	});
 }
 
-// This function is used to trigger question prompts, store answer data, and calls writeToFile() function.
+/*This function is used to trigger question prompts, store answer data, 
+and calls writeToFile() function.*/
 function init() {
 	// inquirer.prompt method will ask the questions and store answers in JSON object
 	inquirer.prompt(questions).then((data) => {
@@ -142,4 +143,6 @@ function init() {
 	});
 }
 
+/* Invoking the init() function to begin question promptingm content storing, 
+and sample readme generation.*/
 init();
