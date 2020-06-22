@@ -1,4 +1,4 @@
-// function to generate the required readme headings
+// Function to generate the required readme section headings.
 function generateMarkdown(data) {
 	return `
 # Project Title
@@ -43,5 +43,5 @@ ${data.tests}
 ![Uploaded profile pic provided by user.](https://github.com/${data.userName}.png)
 `;
 }
-
+// Exporting the generateMarkdown function inorder to invoke in the index.js file.
 module.exports = generateMarkdown;
