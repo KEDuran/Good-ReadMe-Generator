@@ -1,6 +1,7 @@
 # Homework 9 - Good ReadMe Generator
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/KEDuran/ReadMe-Generator)
+<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/KEDuran/ReadMe-Generator">
 
 ## Project Description
 
