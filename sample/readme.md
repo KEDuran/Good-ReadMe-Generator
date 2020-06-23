@@ -1,7 +1,7 @@
 
 # Project Title
 [![npm](https://badge.fury.io/js/inquirer.svg)](http://badge.fury.io/js/inquirer)
-[![License: LGPL v3](https://img.shields.io/badge/License-LGPL%20v3-blue.svg)](https://www.gnu.org/licenses/lgpl-3.0)
+[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
 
 Demo Project for Homework Assignment
 
@@ -17,13 +17,17 @@ The purpose of this project is to develop an back-end app in node.js that will a
 * [Questions](#-Contact-Information)
 
 # Installation
-NPM install
+To install necessary NPM module dependencies, run the following command:
+
+```NPM install```
+
+
 
 # Usage
 For details on how to use this application, please the readme.md file within the GitHub repo I used to develop this application. 
 
 # License
-License used for this project - GNU LGPLv3
+License used for this project - Mozilla
 
 * For more information on license types, please reference this website for additional licensing information - [https://choosealicense.com/](https://choosealicense.com/).
 
