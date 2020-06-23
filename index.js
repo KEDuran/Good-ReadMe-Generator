@@ -8,6 +8,8 @@ function licenseBadge(value) {
 		return "[![License: LGPL v3](https://img.shields.io/badge/License-LGPL%20v3-blue.svg)](https://www.gnu.org/licenses/lgpl-3.0)";
 	} else if (value === "Mozilla") {
 		return "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)";
+	} else if (value === "MIT") {
+		return "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
 	} else if (value === "Apache") {
 		return "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)";
 	} else {
@@ -70,6 +72,7 @@ const questions = [
 			"GNU GPLv3",
 			"GNU LGPLv3",
 			"Mozilla",
+			"MIT",
 			"Apache",
 			"Boost",
 		],
