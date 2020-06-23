@@ -1,7 +1,7 @@
 
 # Project Title
 [![npm](https://badge.fury.io/js/inquirer.svg)](http://badge.fury.io/js/inquirer)
-[![License: LGPL v3](https://img.shields.io/badge/License-LGPL%20v3-blue.svg)](https://www.gnu.org/licenses/lgpl-3.0)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Demo Project for Homework Assignment
 
@@ -17,13 +17,17 @@ The purpose of this project is to develop an back-end app in node.js that will a
 * [Questions](#-Contact-Information)
 
 # Installation
+To install necessary NPM module dependencies, run the following command:
+
 NPM install
+
+
 
 # Usage
 For details on how to use this application, please the readme.md file within the GitHub repo I used to develop this application. 
 
 # License
-License used for this project - GNU LGPLv3
+License used for this project - MIT
 
 * For more information on license types, please reference this website for additional licensing information - [https://choosealicense.com/](https://choosealicense.com/).
 
@@ -35,7 +39,7 @@ This section of the readme.md file is dedicated to include an specific testing s
 
 # Contact Information
 * GitHub Username: KEDuran
-* GitHub Email: krystal.e.garcia@gmail.com
+* GitHub Email: krystal.e.garcia@gamil.com
 * Profile Picture: 
 
 ![Uploaded profile pic provided by user.](https://github.com/KEDuran.png)

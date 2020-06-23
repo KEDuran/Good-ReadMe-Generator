@@ -19,7 +19,11 @@ ${data.description}
 * [Questions](#-Contact-Information)
 
 # Installation
+To install necessary NPM module dependencies, run the following command:
+
 ${data.installation}
+
+
 
 # Usage
 ${data.usage}
